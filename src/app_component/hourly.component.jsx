@@ -8,7 +8,7 @@ const hourly = (props) => {
     console.log(hourly48)
     return (
         <div className="container">
-            <h3>Hourly Forecate </h3>
+            <h3>Hourly Forecast </h3>
          <div className="scroll">
              { hourly48.map((hr) => 
               <Card style={{ width: '14.2%', float : 'left' , height: '150px', background: "#DDA0DD"  }} >

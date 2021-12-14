@@ -19,7 +19,7 @@ const Weather = (props) => {
             </div>
            
            
-              {props.week ? ( <h3>Week Forecaste</h3> ):null}
+              {props.week ? ( <h3>Week Forecast</h3> ):null}
               {props.week ? ( <Week week={props.week} calCelsius={props.calCelsius}/>):null}
               {props.hourly ? ( <Hourly hourly={props.hourly} calCelsius={props.calCelsius}/>):null}
         
